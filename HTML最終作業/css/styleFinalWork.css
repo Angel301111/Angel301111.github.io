@@ -114,10 +114,10 @@ table {
 	display: block;
 	text-decoration: none;
 	color: #00251A;
+	border-bottom: 5px solid transparent;
 }
 .header-list-item a:hover{
-	border-bottom: #00CC99 solid 5px;
-	padding-bottom: 10px;
+	border-bottom: 5px solid #00CC99;
 }
 
 /* banner區 */
@@ -202,6 +202,9 @@ table {
 	width: 920px;
 	border-bottom: 1px solid #CCCCCC;
 }
+.tbody table tr:hover{
+	background: linear-gradient(#E4FFF8,#A2DDCE);
+}
 .tbody table tr th{
 	width: 920px;
 	font-weight: 800;
@@ -272,6 +275,9 @@ label{
 	background: #00251A;
 	color: #FFFFFF;
 	line-height: 19.2px;
+}
+.submit input:hover{
+	background-color: #00CC99;
 }
 
 /* footer區 */
